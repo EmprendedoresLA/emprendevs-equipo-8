@@ -55,13 +55,13 @@ function validarPass(){
 			return
 	}
 	if(vl_user_pass != null){
-		if(vl_user_pass.length < 6){
+	/*	if(vl_user_pass.length < 6){
 			plugins.dialogs.showErrorDialog('Error','La Contraseña debe tener al menos 6 caracteres')
 			return
-		}
+		}*/
 		if(vl_user_pass != vl_user_pass_2){
 			plugins.dialogs.showErrorDialog('Error','Las Contraseñas no coinciden')
-				return
+			return
 		}
 	}
 	if(existeCuenta()){
