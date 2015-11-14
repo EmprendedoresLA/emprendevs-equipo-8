@@ -50,8 +50,9 @@ specname:\"column\"\
 items:[
 {
 json:{
+onActionMethodID:"5D634854-DBDF-4A2F-9C48-E3FD9DB82F95",
 styleClass:"btn btn-primary btn-lg btn-block",
-text:"REGISTRAR PRECIOS"
+text:"CONSULTA DE PRECIOS"
 },
 name:"btn_registrar_precios",
 typeName:"bootstrapcomponents-button",
@@ -89,7 +90,7 @@ items:[
 {
 json:{
 styleClass:"btn btn-primary btn-lg btn-block",
-text:"CONSULTAR PRECIOS"
+text:"BUSQUEDA MANUAL"
 },
 name:"btn_consulta",
 typeName:"bootstrapcomponents-button",
