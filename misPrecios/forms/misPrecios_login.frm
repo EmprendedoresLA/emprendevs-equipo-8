@@ -22,7 +22,7 @@ specname:\"row\"\
 items:[
 {
 customProperties:"attributes:{\
-class:\"col-md-12 lg-6\"\
+class:\"col-lg-6 col-lg-offset-3\"\
 },\
 properties:{\
 packagename:\"12grid\",\
@@ -94,10 +94,22 @@ json:{
 styleClass:"btn btn-primary",
 text:"Ingresar"
 },
+location:"1,1",
 name:"btn_ingresar",
 typeName:"bootstrapcomponents-button",
 typeid:47,
 uuid:"96BB7BA3-E8C8-4429-AF18-85875D97930C"
+},
+{
+json:{
+onActionMethodID:"80EA8DA9-0242-456F-B8A6-2FFBEF289B7A",
+text:"No tengo cuenta"
+},
+location:"2,2",
+name:"btn_crear_cuenta",
+typeName:"bootstrapcomponents-button",
+typeid:47,
+uuid:"D398AE35-FE5D-4705-A046-355464E3448E"
 }
 ],
 location:"4,4",
@@ -114,14 +126,29 @@ specname:\"div\"\
 }",
 items:[
 {
+customProperties:"attributes:{\
+class:\"col-lg-10 col-lg-offset-1\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"div\"\
+}",
+items:[
+{
 json:{
 inputType:"password",
 placeholderText:"Contraseña"
 },
+location:"1,1",
 name:"user_pass",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"B241270A-8D8B-4F07-B81C-EA219A0CD158"
+}
+],
+location:"2,2",
+typeid:46,
+uuid:"9C3DE817-FFFA-4EF8-9480-253C6F0BCFE2"
 }
 ],
 location:"3,3",
@@ -138,14 +165,29 @@ specname:\"div\"\
 }",
 items:[
 {
+customProperties:"attributes:{\
+class:\"col-lg-10 col-lg-offset-1\"\
+},\
+properties:{\
+packagename:\"12grid\",\
+specname:\"div\"\
+}",
+items:[
+{
 json:{
 inputType:"text",
-placeholderText:"Usuario"
+placeholderText:"E-mail"
 },
+location:"1,1",
 name:"user_name",
 typeName:"bootstrapcomponents-textbox",
 typeid:47,
 uuid:"BCA33652-8A6C-459B-A990-950B305BC0BE"
+}
+],
+location:"2,2",
+typeid:46,
+uuid:"D8F27EF0-9C9E-4368-A2C7-15DD02959130"
 }
 ],
 location:"2,2",
@@ -193,6 +235,7 @@ uuid:"50028FF2-2B28-4F20-8977-038D7650394D"
 ],
 name:"misPrecios_login",
 navigatorID:"-1",
+onShowMethodID:"DFCF8E4E-B800-4B23-B4C5-1D637288AD19",
 showInMenu:true,
 typeid:3,
 uuid:"0B6E728E-DD7E-4A8C-A3F9-D4540BDAA8EE"
