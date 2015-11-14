@@ -50,7 +50,7 @@ specname:\"column\"\
 items:[
 {
 json:{
-onActionMethodID:"5D634854-DBDF-4A2F-9C48-E3FD9DB82F95",
+onActionMethodID:"79A564C8-43B5-46FE-B74E-3E5EA27E735B",
 styleClass:"btn btn-primary btn-lg btn-block",
 text:"CONSULTA DE PRECIOS"
 },
