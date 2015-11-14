@@ -165,17 +165,6 @@ elementId:"config",
 items:[
 {
 json:{
-styleClass:"btn btn-lg glyphicon glyphicon-home btn-secondary",
-text:" "
-},
-location:"1,1",
-name:"btn_home",
-typeName:"bootstrapcomponents-button",
-typeid:47,
-uuid:"4ABCE2D1-D02B-4FD8-9944-776716A76478"
-},
-{
-json:{
 styleClass:"btn btn-lg glyphicon glyphicon-cog btn-secondary",
 text:" "
 },

@@ -22,6 +22,11 @@ var vl_user_name = null;
  * @properties={typeid:24,uuid:"DFCF8E4E-B800-4B23-B4C5-1D637288AD19"}
  */
 function onShow(firstShow, event) {
+	if(firstShow){
+		if(buscarArchivo()){
+			forms.misPrecios_principal.controller.show()
+		}
+	}
 	vl_user_name = null
 	vl_user_pass = null
 }
@@ -69,12 +74,48 @@ function validarPass(){
 }
 
 /**
+ * @properties={typeid:24,uuid:"467796A2-D964-49D2-8A45-D9B5A6FAB913"}
+ */
+function crearArchivo(){
+	var homeFolder = plugins.file.getHomeFolder()
+	plugins.file.createFolder(homeFolder+"\\misPrecConfig")
+	
+	var file = 	plugins.file.createFile(homeFolder+"\\misPrecConfig\\user.txt")
+	plugins.file.appendToTXTFile(file,vl_user_name+";")
+	plugins.file.appendToTXTFile(file,vl_user_pass)
+}
+
+/**
+ * @properties={typeid:24,uuid:"83A7A4CC-4800-4DEF-A8F4-FB9BC1B70B95"}
+ */
+function buscarArchivo(){
+	var homeFolder = plugins.file.getHomeFolder()
+	var file = plugins.file.getFileSize(homeFolder+"\\misPrecConfig\\user.txt")
+	if(file != 0){
+		var array = new Array
+		array  = plugins.file.readFile(homeFolder+"\\misPrecConfig\\user.txt")
+		var userPass
+		for (var index = 0; index < array.length; index++) {
+			userPass = array[index]
+		}
+		var array1 = new Array
+		array1  = userPass.toString().split(';')
+		var user = array1[0]
+		var pass = array1[1]
+		if(validarArchivo(user,pass)){
+			return true
+		}
+	}
+	return false
+}
+/**
  *
  * @param {JSEvent} event
  *
  * @properties={typeid:24,uuid:"36CE0EA0-119C-408B-A915-4955BFD4920D"}
  */
 function onActionIngresar(event) {
+
 	if(vl_user_name == null || vl_user_name == ''){
 		plugins.dialogs.showErrorDialog('Error','Ingrese un E-mail')
 		return
@@ -95,5 +136,25 @@ function onActionIngresar(event) {
 			forms.misPrecios_principal.controller.show()
 		}
 	}
+	crearArchivo()
+}
 
+/**
+ * @AllowToRunInFind
+ * 
+ * TODO generated, please specify type and doc for the params
+ * @param lnk_usr
+ * @param lnk_pass
+ *
+ * @properties={typeid:24,uuid:"3B186227-9030-4BE3-B378-4C11A94319BC"}
+ */
+function validarArchivo(lnk_usr , lnk_pass){
+	controller.loadAllRecords()
+	controller.find()
+	usr_nombre = lnk_usr
+	usr_password = lnk_pass
+	if(controller.search() != 0){
+		return true
+	}
+	return false
 }

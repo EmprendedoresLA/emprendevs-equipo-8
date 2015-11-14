@@ -67,3 +67,6 @@ function clearFormVariables() {
 	format = "";
 	code = "";
 }
+
+
+
