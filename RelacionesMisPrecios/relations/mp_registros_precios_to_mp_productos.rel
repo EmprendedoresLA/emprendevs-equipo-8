@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/misprecios/mp_productos",
+items:[
+{foreignColumnName:"prd_id",primaryDataProviderID:"prd_id",typeid:23,uuid:"FD1A7303-F342-48EB-BE86-C5303DFFDF6C"}
+],
+joinType:1,
+name:"mp_registros_precios_to_mp_productos",
+primaryDataSource:"db:/misprecios/mp_registros_precios",
+typeid:22,
+uuid:"5549BE07-1D05-435E-AA7D-4E65ED545A31"

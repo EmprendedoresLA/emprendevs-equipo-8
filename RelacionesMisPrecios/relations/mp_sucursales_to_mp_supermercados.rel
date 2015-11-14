@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/misprecios/mp_supermercados",
+items:[
+{foreignColumnName:"super_id",primaryDataProviderID:"super_id",typeid:23,uuid:"EDDD45C9-9651-4103-A06D-F1B00C63BC4E"}
+],
+joinType:1,
+name:"mp_sucursales_to_mp_supermercados",
+primaryDataSource:"db:/misprecios/mp_sucursales",
+typeid:22,
+uuid:"1B7BD36C-930F-4EE4-920D-8833D81BBF29"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/misprecios/mp_productos",
+items:[
+{foreignColumnName:"familia_id",primaryDataProviderID:"familia_id",typeid:23,uuid:"89476748-3BAB-493F-A138-D39AA1834A2B"}
+],
+joinType:1,
+name:"mp_familia_to_mp_productos",
+primaryDataSource:"db:/misprecios/mp_familia",
+typeid:22,
+uuid:"B8D6BD55-61EE-4256-8C90-8334D16E1A83"
