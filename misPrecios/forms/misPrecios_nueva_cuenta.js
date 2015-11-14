@@ -31,7 +31,8 @@ function onShow(firstShow, event) {
 	vl_user_name = null
 	vl_user_pass = null
 	vl_user_pass_2 = null
-	elements.label_error.text = ""
+	
+	
 }
 
 /**
@@ -40,20 +41,27 @@ function onShow(firstShow, event) {
  */
 function validarPass(){
 	if(vl_user_name == null || vl_user_name == ''){
-		elements.label_error.text = "Debe ingresar E-mail"
+		plugins.dialogs.showErrorDialog('Error','Debe ingresar el E-mail')
+		return
 	}
 	if(vl_user_name != null || vl_user_name != ''){
-		var reg = new RegExp ('@')
-		if(vl_user_name.search(reg) == 0){
-			elements.label_error.text = "Debe ingresar un E-mail valido"
+		if(!plugins.mail.isValidEmailAddress(vl_user_name)){
+			plugins.dialogs.showErrorDialog('Error','Debe ingresar un E-mail válido')
+			return
 		}
 	}
 	if(vl_user_pass == null){
-		elements.label_error.text = "Debe ingresar su Contraseña"
+		plugins.dialogs.showErrorDialog('Error','Debe ingresar una Contraseña')
+			return
 	}
 	if(vl_user_pass != null){
+		if(vl_user_pass.length < 6){
+			plugins.dialogs.showErrorDialog('Error','La Contraseña debe tener al menos 6 caracteres')
+			return
+		}
 		if(vl_user_pass != vl_user_pass_2){
-			elements.label_error.text = "Las Contraseñas no coinciden"
+			plugins.dialogs.showErrorDialog('Error','Las Contraseñas no coinciden')
+				return
 		}
 	}
 }
