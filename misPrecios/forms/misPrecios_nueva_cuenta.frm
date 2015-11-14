@@ -1,6 +1,7 @@
 customProperties:"layout:{\
 responsive:true\
 }",
+dataSource:"db:/misprecios/mp_usuarios",
 items:[
 {
 customProperties:"attributes:{\

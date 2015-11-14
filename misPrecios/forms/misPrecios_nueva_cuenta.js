@@ -64,6 +64,29 @@ function validarPass(){
 				return
 		}
 	}
+	if(existeCuenta()){
+		plugins.dialogs.showErrorDialog('Error','Ya existe una cuenta registrada con ese E-mail. Verifique.')
+		return
+	}
+	controller.newRecord()
+	usr_email = vl_user_name
+	usr_nombre = vl_user_name
+	usr_password = vl_user_pass
+	databaseManager.saveData()
+	forms.misPrecios_login.controller.show()
+}
+
+/**
+ * @properties={typeid:24,uuid:"138DCBAE-9263-4639-8EFD-5731C5BB72B9"}
+ * @AllowToRunInFind
+ */
+function existeCuenta(){
+	controller.find()
+	usr_email = vl_user_name
+	if(controller.search() != 0){
+		return true
+	}
+	return false
 }
 /**
  *

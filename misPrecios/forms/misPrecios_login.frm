@@ -1,6 +1,7 @@
 customProperties:"layout:{\
 responsive:true\
 }",
+dataSource:"db:/misprecios/mp_usuarios",
 items:[
 {
 customProperties:"attributes:{\
@@ -91,6 +92,7 @@ specname:\"div\"\
 items:[
 {
 json:{
+onActionMethodID:"36CE0EA0-119C-408B-A915-4955BFD4920D",
 styleClass:"btn btn-primary",
 text:"Ingresar"
 },
@@ -136,6 +138,7 @@ specname:\"div\"\
 items:[
 {
 json:{
+dataProviderID:"vl_user_pass",
 inputType:"password",
 placeholderText:"Contraseña"
 },
@@ -175,6 +178,7 @@ specname:\"div\"\
 items:[
 {
 json:{
+dataProviderID:"vl_user_name",
 inputType:"text",
 placeholderText:"E-mail"
 },
