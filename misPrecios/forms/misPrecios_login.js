@@ -1,4 +1,9 @@
 /**
+ * @properties={typeid:35,uuid:"A38C6F52-47DD-47C5-B86D-84FA6EFF31FB",variableType:-4}
+ */
+var vl_logo = null;
+
+/**
  * @type {String}
  *
  * @properties={typeid:35,uuid:"3B76E22C-850F-465C-9D61-E855CE370560"}
@@ -22,7 +27,9 @@ var vl_user_name = null;
  * @properties={typeid:24,uuid:"DFCF8E4E-B800-4B23-B4C5-1D637288AD19"}
  */
 function onShow(firstShow, event) {
-//	if(firstShow){
+	//if(firstShow){
+//		var image = plugins.images.getImage("media:///misPrecLogo.png")
+	//	vl_logo = image
 	//	if(buscarArchivo()){
 		//	forms.misPrecios_principal.controller.show()
 		//}
