@@ -92,14 +92,9 @@ function buscarArchivo(){
 	var homeFolder = plugins.file.getHomeFolder()
 	var file = plugins.file.getFileSize(homeFolder+"\\misPrecConfig\\user.txt")
 	if(file != 0){
-		var array = new Array
-		array  = plugins.file.readFile(homeFolder+"\\misPrecConfig\\user.txt")
-		var userPass
-		for (var index = 0; index < array.length; index++) {
-			userPass = array[index]
-		}
+		var userPass = plugins.file.readTXTFile(homeFolder+"\\misPrecConfig\\user.txt")
 		var array1 = new Array
-		array1  = userPass.toString().split(';')
+		array1  = userPass.split(';')
 		var user = array1[0]
 		var pass = array1[1]
 		if(validarArchivo(user,pass)){
