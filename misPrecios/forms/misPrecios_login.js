@@ -22,11 +22,11 @@ var vl_user_name = null;
  * @properties={typeid:24,uuid:"DFCF8E4E-B800-4B23-B4C5-1D637288AD19"}
  */
 function onShow(firstShow, event) {
-	if(firstShow){
-		if(buscarArchivo()){
-			forms.misPrecios_principal.controller.show()
-		}
-	}
+//	if(firstShow){
+	//	if(buscarArchivo()){
+		//	forms.misPrecios_principal.controller.show()
+		//}
+	//}
 	vl_user_name = null
 	vl_user_pass = null
 }
@@ -131,7 +131,7 @@ function onActionIngresar(event) {
 			forms.misPrecios_principal.controller.show()
 		}
 	}
-	crearArchivo()
+	//crearArchivo()
 }
 
 /**
