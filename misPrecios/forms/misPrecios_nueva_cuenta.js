@@ -73,7 +73,7 @@ function validarPass(){
 	usr_nombre = vl_user_name
 	usr_password = vl_user_pass
 	databaseManager.saveData()
-	forms.misPrecios_login.controller.show()
+	forms.misPrecios_principal.controller.show()
 }
 
 /**
