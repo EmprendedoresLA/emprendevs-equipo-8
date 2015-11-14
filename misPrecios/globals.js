@@ -1,6 +1,13 @@
 /**
  * @type {Number}
  *
+ * @properties={typeid:35,uuid:"6594E14A-3B65-4620-81A4-E03331186380",variableType:4}
+ */
+var vg_user_id = null;
+
+/**
+ * @type {Number}
+ *
  * @properties={typeid:35,uuid:"5682AB82-74BC-490B-A594-B25E9A10E15C",variableType:8}
  */
 var vg_velocidad = null;

@@ -6582,6 +6582,13 @@ button.close {
   background-color: transparent;
   border: 0;
 }
+
+.logoImagen{ background-image: url('misPrecLogo2.png'); 
+ display: block;
+ width: 350px;
+ height: 250px;
+ }
+
 .hidden {
   display: none !important;
 }

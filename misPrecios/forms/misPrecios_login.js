@@ -138,13 +138,14 @@ function onActionIngresar(event) {
 			forms.misPrecios_principal.controller.show()
 		}
 	}
+	grabarUserId(vl_user_name)
 	//crearArchivo()
 }
 
 /**
  * @AllowToRunInFind
  * 
- * TODO generated, please specify type and doc for the params
+ * 
  * @param lnk_usr
  * @param lnk_pass
  *
@@ -159,4 +160,23 @@ function validarArchivo(lnk_usr , lnk_pass){
 		return true
 	}
 	return false
+}
+
+
+/**
+ * @AllowToRunInFind
+ * 
+ * 
+ * @param lnk_user_name
+ *
+ * @properties={typeid:24,uuid:"8004FB48-FAA4-40B4-96EA-A29FC6427C07"}
+ */
+function grabarUserId(lnk_user_name){
+	controller.loadAllRecords()
+	controller.find()
+	usr_nombre = lnk_user_name
+	if(controller.search() != 0){
+		globals.vg_user_id = usr_id
+	}
+	
 }
