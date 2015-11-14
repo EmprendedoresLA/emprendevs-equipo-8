@@ -7,7 +7,7 @@ typeid:19,
 uuid:"32D99DA3-E2C1-4EC1-A66E-3E839EA32E61"
 },
 {
-location:"182,135",
+location:"215,167",
 onActionMethodID:"-1",
 size:"94,39",
 text:"button",
