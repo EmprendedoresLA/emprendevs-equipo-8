@@ -6987,7 +6987,7 @@ a.list-group-item-danger.active:focus {
 {
 	margin-top=10px;
 }
-#config
+#config button
 {
-	padding-left:48%;
+	float:left;
 }
