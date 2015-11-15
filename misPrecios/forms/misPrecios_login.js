@@ -135,7 +135,7 @@ function onActionIngresar(event) {
 			plugins.dialogs.showErrorDialog('Error','La Contraseña ingresada no es válida')
 			return
 		}else{
-			forms.misPrecios_principal.controller.show()
+			forms.misPrecios_principal_copy.controller.show()
 		}
 	}
 	grabarUserId(vl_user_name)

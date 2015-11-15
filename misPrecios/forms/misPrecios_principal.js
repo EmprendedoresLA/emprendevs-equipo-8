@@ -70,3 +70,14 @@ function clearFormVariables() {
 
 
 
+
+/**
+ *
+ * @param {JSEvent} event
+ *
+ * @properties={typeid:24,uuid:"28E77141-5F00-4A0C-9DCB-84F6F03B3B98"}
+ */
+function onActionBuscar(event) {
+	forms.misPrecios_buscar.controller.show()
+
+}
