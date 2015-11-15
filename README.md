@@ -4,7 +4,7 @@ misPrecios
 ===========
 
 Gasta menos en la comunidad de precios para jovenes independientes.
-Oportunidad
+
 
 Instrucciones para su instalación
 ==========================================
