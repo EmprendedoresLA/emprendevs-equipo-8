@@ -37,9 +37,13 @@ Presentacion
 La presentacion del proyecto puede verse en el siguiente link.
 https://docs.google.com/presentation/d/18D2gxw_d0gZD0boghatSsx4Sa4w_yDP5RADqXu56oYQ/edit?usp=sharing
 
+Diagrama de funcionamiento
+--------------------------
 El diagrama de funcionamiento puede verse en el siguiente link.
 https://drive.google.com/file/d/0B8IrWvi2RXi0cDB5MjRoWVROVjA/view?usp=drive_web
 
+Modelo de datos
+---------------
 El modelo de datos puede verse en el siguiente link.
 https://drive.google.com/open?id=0B4qLAYgT2klKQXZYNTY2d3lWaHc&authuser=0
 
