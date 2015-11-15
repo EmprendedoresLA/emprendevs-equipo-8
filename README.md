@@ -36,4 +36,7 @@ https://drive.google.com/file/d/0B8IrWvi2RXi0cDB5MjRoWVROVjA/view?usp=drive_web
 El modelo de datos puede verse en el siguiente link.
 https://drive.google.com/open?id=0B4qLAYgT2klKQXZYNTY2d3lWaHc&authuser=0
 
+El video de la App Movil puede verse en el siguiente link:
+https://youtu.be/V41biN0-Cpg
+
 
