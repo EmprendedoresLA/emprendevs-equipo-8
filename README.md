@@ -48,7 +48,7 @@ El modelo de datos puede verse en el siguiente link.
 https://drive.google.com/open?id=0B4qLAYgT2klKQXZYNTY2d3lWaHc&authuser=0
 
 Videos
----------------
+-------
 El video de la App Movil puede verse en el siguiente link:
 https://youtu.be/V41biN0-Cpg
 
