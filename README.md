@@ -20,8 +20,16 @@ Navegadores soportados. El NGClient de Servoy con el que corremos las aplicacion
 
 La mayoría de los navegadores que soportan WebSocket también soportan HTML5 y CSS3. 
 
+El analisis de persona y escenario puede verse en el siguiente link.
+https://docs.google.com/document/d/1flYd4TwpvtPeZDkDW5S3CP9dl8zFHNl_J-79OemkHl0/edit?usp=sharing
+
 La presentacion del proyecto puede verse en el siguiente link.
 https://docs.google.com/presentation/d/18D2gxw_d0gZD0boghatSsx4Sa4w_yDP5RADqXu56oYQ/edit?usp=sharing
 
 El diagrama de funcionamiento puede verse en el siguiente link.
 https://drive.google.com/file/d/0B8IrWvi2RXi0cDB5MjRoWVROVjA/view?usp=drive_web
+
+El modelo de datos puede verse en el siguiente link.
+https://drive.google.com/open?id=0B4qLAYgT2klKQXZYNTY2d3lWaHc&authuser=0
+
+
