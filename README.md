@@ -1,5 +1,9 @@
 # emprendevs-equipo-8
 
+misPrecios
+
+Gasta menos en la comunidad de precios para jovenes independientes
+
 Instrucciones para su instalación
 
 Nuestra solución requiere de Apache Tomcat para correr, por lo que se debe instalar Apache Tomcat y una base de datos. En nuestro servidor de testing en Softlayer estamos usando Postgre SQL, pero en nuestras máquinas locales, algunos usamos Postgre y otros MySQL, pero se puede utilizar cualquier base de datos que se desee. (Ver arquitectura de Deployment de Servoy https://wiki.servoy.com/display/DOCS/Servoy+Deployment+Architecture).
@@ -19,3 +23,17 @@ Navegadores soportados. El NGClient de Servoy con el que corremos las aplicacion
     Opera 12 y superior
 
 La mayoría de los navegadores que soportan WebSocket también soportan HTML5 y CSS3. 
+
+El analisis de persona y escenario puede verse en el siguiente link.
+https://docs.google.com/document/d/1flYd4TwpvtPeZDkDW5S3CP9dl8zFHNl_J-79OemkHl0/edit?usp=sharing
+
+La presentacion del proyecto puede verse en el siguiente link.
+https://docs.google.com/presentation/d/18D2gxw_d0gZD0boghatSsx4Sa4w_yDP5RADqXu56oYQ/edit?usp=sharing
+
+El diagrama de funcionamiento puede verse en el siguiente link.
+https://drive.google.com/file/d/0B8IrWvi2RXi0cDB5MjRoWVROVjA/view?usp=drive_web
+
+El modelo de datos puede verse en el siguiente link.
+https://drive.google.com/open?id=0B4qLAYgT2klKQXZYNTY2d3lWaHc&authuser=0
+
+
