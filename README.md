@@ -1,8 +1,10 @@
 # emprendevs-equipo-8
 
 misPrecios
+===========
 
-Gasta menos en la comunidad de precios para jovenes independientes
+Gasta menos en la comunidad de precios para jovenes independientes.
+Oportunidad
 
 Instrucciones para su instalación
 ==========================================
@@ -25,9 +27,13 @@ Navegadores soportados. El NGClient de Servoy con el que corremos las aplicacion
 
 La mayoría de los navegadores que soportan WebSocket también soportan HTML5 y CSS3. 
 
+Persona y escenario
+------------------
 El analisis de persona y escenario puede verse en el siguiente link.
 https://docs.google.com/document/d/1flYd4TwpvtPeZDkDW5S3CP9dl8zFHNl_J-79OemkHl0/edit?usp=sharing
 
+Presentacion
+------------
 La presentacion del proyecto puede verse en el siguiente link.
 https://docs.google.com/presentation/d/18D2gxw_d0gZD0boghatSsx4Sa4w_yDP5RADqXu56oYQ/edit?usp=sharing
 
