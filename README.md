@@ -5,6 +5,7 @@ misPrecios
 Gasta menos en la comunidad de precios para jovenes independientes
 
 Instrucciones para su instalación
+==========================================
 
 Nuestra solución requiere de Apache Tomcat para correr, por lo que se debe instalar Apache Tomcat y una base de datos. En nuestro servidor de testing en Softlayer estamos usando Postgre SQL, pero en nuestras máquinas locales, algunos usamos Postgre y otros MySQL, pero se puede utilizar cualquier base de datos que se desee. (Ver arquitectura de Deployment de Servoy https://wiki.servoy.com/display/DOCS/Servoy+Deployment+Architecture).
 
