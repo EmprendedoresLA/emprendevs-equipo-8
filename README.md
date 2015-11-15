@@ -52,4 +52,7 @@ Videos
 El video de la App Movil puede verse en el siguiente link:
 https://youtu.be/V41biN0-Cpg
 
+El video de la Aplicacion Web puede verse en el siguiente link: 
+https://youtu.be/7bQFznEPjjQ
+
 
